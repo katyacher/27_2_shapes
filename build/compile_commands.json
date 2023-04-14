@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/kate/Documents/skillbox/27_2_shapes/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/27_2_shapes.dir/main.cpp.o -c /home/kate/Documents/skillbox/27_2_shapes/main.cpp",
+  "file": "/home/kate/Documents/skillbox/27_2_shapes/main.cpp",
+  "output": "CMakeFiles/27_2_shapes.dir/main.cpp.o"
+},
+{
+  "directory": "/home/kate/Documents/skillbox/27_2_shapes/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/27_2_shapes.dir/shapes.cpp.o -c /home/kate/Documents/skillbox/27_2_shapes/shapes.cpp",
+  "file": "/home/kate/Documents/skillbox/27_2_shapes/shapes.cpp",
+  "output": "CMakeFiles/27_2_shapes.dir/shapes.cpp.o"
+}
+]

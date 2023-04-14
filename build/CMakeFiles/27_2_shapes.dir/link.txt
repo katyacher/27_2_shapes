@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/27_2_shapes.dir/main.cpp.o CMakeFiles/27_2_shapes.dir/shapes.cpp.o -o 27_2_shapes 
