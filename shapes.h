@@ -7,27 +7,36 @@ struct Point{
 };
 
 enum color{
-    RED,
-    GREEN,
-    BLUE,
-    NONE
-};
+        RED,
+        GREEN,
+        BLUE,
+        NONE
+    };
 
-class Shape{//абстрактный класс 
+class Shape{
 protected:
     Point center;
-    color myColor;
+    color myColor = NONE;
+
 public:
+   
     virtual double area() = 0;
     virtual void find_bounding_rectangle() = 0;
 
+    std::string getColor(){
+        if(myColor == RED) return "RED";
+        if(myColor == GREEN) return "GREEN";
+        if(myColor == BLUE) return "BLUE";
+        if (myColor == NONE) return "NONE";
+        return "NONE";
+    }
+
     void info(){
-        std::cout << "Color = " << myColor << std::endl;
+        std::cout << "Color = " << getColor() << std::endl;
         std::cout << "Area = " << area() << std::endl;
         find_bounding_rectangle();
     }
 };
-
 
 class Rectangle:public Shape{
     double width, height;

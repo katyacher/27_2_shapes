@@ -9,19 +9,19 @@ int main(int, char**) {
         std::cout << "Enter the command: circle, square, triangle, rectangle" << std::endl;
         std::cin >> command;
         if(command == "circle"){
-            std::cout << "Enter the radious of circle: ";
+            std::cout << "Enter the radious of the circle: ";
             double r;
             std::cin >> r;
             Circle* circle = new Circle(r);
             circle->info();
         } else if (command == "square"){
-            std::cout << "Enter the length of the side of square: ";
+            std::cout << "Enter the length of the side of the square: ";
             double s;
             std::cin >> s;
             Square* square = new Square(s);
             square->info();
         } else if (command == "triangle"){
-            std::cout << "Enter the length of the side of triangle: ";
+            std::cout << "Enter the length of the side of the triangle: ";
             double s;
             std::cin >> s;
             Triangle* triangle = new Triangle(s);
